@@ -11,7 +11,7 @@ const app = express();
 
 // Uncomment and configure the cors middleware
 app.use(cors({
-    origin: 'https://ai-image-generator-eosin-five.vercel.app/', // Allow requests only from this origin
+    origin: 'https://ai-image-generator-4sbqjyisi-vinayak700.vercel.app/', // Allow requests only from this origin
     methods: 'GET,POST,PUT,DELETE',
     credentials: true
 }));
