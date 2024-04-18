@@ -11,9 +11,9 @@ const app = express();
 
 // Uncomment and configure the cors middleware
 app.use(cors({
-    origin: '*', // Allow requests only from this origin
-    methods: 'GET,POST,PUT,DELETE',
-    credentials: true
+    // origin: '*', // Allow requests only from this origin
+    // methods: 'GET,POST,PUT,DELETE',
+    // credentials: true
 }));
 
 app.use(express.json({ limit: "50mb" }));
